@@ -1,6 +1,48 @@
+<!DOCTYPE html>
 <html>
-    
+    <head>
+        
+    </head>
     <body>
+        <h2>concentrate</h2>
+        <label for="concentrate_ammount">How much of concentrate in ml</label>
+        <input type="number" id="concentrate_ammount" min="0" step="1" value="30">
+        <br>
+        <label for="concentrate_pg">pg of concentrate in %</label>
+        <input type="number" id="concentrate_pg" min="0" max="100" step="1" value="50">
+        <br>
+        <label for="concentrate_vg">vg of concentrate in %</label>
+        <input type="number" id="concentrate_vg" min="0" max="100" step="1" value="50">
+        <br>
+        <label for="concentrate_dilutaion">Desired concentrate dilution in %</label>
+        <input type="number" id="concentrate_dilutaion" min="0" max="100" step="1" value="20">
+        <br>
+        
+        <h2>nicotine</h2>
+        <label for="nicotine_strengt">nicotine strenght in mg</label>
+        <input type="number" id="nicotine_strengt" min="0" step="1" value="20">
+        <br>
+        <label for="nicotine_pg">pg of nicotine in %</label>
+        <input type="number" id="nicotine_pg" min="0" max="100" step="1" value="50">
+        <br>
+        <label for="nicotine_vg">vg of nicotine in %</label>
+        <input type="number" id="nicotine_vg" min="0" max="100" step="1" value="50">
+        <br>
+        <label for="desire_nicotine_strengt">Desired nicotine strenght in mg</label>
+        <input type="number" id="desire_nicotine_strengt" min="0" step="1" value="3">
+        <br>
 
+        <h2>base</h2>
+        <label for="pg_base">base pg in %</label>
+        <input type="number" id="pg_base" min="0" step="1" value="50">
+        <br>
+        <label for="vg_base">base vg in %</label>
+        <input type="number" id="vg_base" min="0" step="1" value="50">
+        <br>
+
+        <h2>output</h2>
+        <input readonly type="value" id="output">
+
+        <script src="script.js"></script>
     </body>
 </html>
